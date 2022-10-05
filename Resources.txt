@@ -1,0 +1,13 @@
+Arduino IDE: https://www.arduino.cc/en/software 
+
+
+Visual Studio IDE: https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&passive=false&cid=2030
+
+Link to install GIT: https://github.com/git-for-windows/git/releases/download/v2.38.0.windows.1/Git-2.38.0-64-bit.exe
+
+The Team Github: https://github.com/rcr-software
+
+Useful website for looking code up:
+https://www.geeksforgeeks.org/
+https://stackoverflow.com/
+https://learn.microsoft.com/
