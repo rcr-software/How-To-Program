@@ -18,4 +18,6 @@ Set up:
 
 Open the first lesson folder and read the README.txt
 
+Or view the Lessons.txt file to find a different lesson to start on
+
 All code uploaded here is open for everyone to view and anyone may use this as a resource
