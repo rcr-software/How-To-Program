@@ -3,7 +3,7 @@ This is lesson 1.
 In this lesson you will learn how to create a console app and get started with the basics by making a simple calculator.
 
 the goal with these is not to jump to far ahead. don’t create a program that is more advance or complicated than necessary. simplicity is key.
-	skip to ln 5612 for prompt.
+	skip to ln 56 for prompt.
 
 you will learn about the following:
 
