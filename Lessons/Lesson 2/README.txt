@@ -2,16 +2,25 @@ Lesson 2:
 
 This lesson goes over how to use terminal a bit and how to work with git. It will also go over commenting your commits and your code
 
-To learn how to run code in terminal got to ln 19
-to learn about git commands, go to ln 23
-to follow a step by step of how to setup your git and push go to ln 42
+To learn how to run code in terminal got to ln 28
+to learn about git commands, go to ln 32
+to follow a step by step of how to setup your git and push go to ln 51
 
 Prompt:
 
 Setup your local git repo in a folder.
-create a new branch, add your program from lesson 1 into the solutions folder, push it, and make a PR
+create a new branch (branch names should be simple yet informative), I would suggest Lesson 1 solution FL (with FL being first initial last initial), 
+add your program from lesson 1 into the solutions folder, push it, and make a PR
 create a new branch for lesson 2, add the same program to the lesson 2 solutions folder
-comment this program as demonstrated in the example.cs, push it, and make a PR
+comment your code:
+	Code commenting is important so other people can actually read your code without going line by line.
+	Every line does not need to be explained. typically, you just label a scope or unique block of code.
+	something like a switch, at the top you say what you are switching.
+	along with this you would also put a comment by a large repetitive block like a bunch of similar variables.
+	Lastly any code that is not obvious what it does. if a line or part of a function is not commonly use just put a small comment explaining it.
+	ex.
+	(torque & 1) == 1 //checks to see if first bit of this int is a 1
+	This line of code uses & which is a very uncommon operation so I would explain it so some people who may have not ever used it can understand
 pull on your main and delete old branches after the PRs are approved
 
 
