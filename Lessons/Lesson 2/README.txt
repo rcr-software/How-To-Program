@@ -2,9 +2,9 @@ Lesson 2:
 
 This lesson goes over how to use terminal a bit and how to work with git. It will also go over commenting your commits and your code
 
-To learn how to run code in terminal got to ln 28
-to learn about git commands, go to ln 32
-to follow a step by step of how to setup your git and push go to ln 51
+To learn how to run code in terminal got to ln 29
+to learn about git commands, go to ln 33
+to follow a step by step of how to setup your git and push go to ln 52
 
 Prompt:
 
@@ -19,9 +19,10 @@ comment your code:
 	along with this you would also put a comment by a large repetitive block like a bunch of similar variables.
 	Lastly any code that is not obvious what it does. if a line or part of a function is not commonly use just put a small comment explaining it.
 	ex.
-	(torque & 1) == 1 //checks to see if first bit of this int is a 1
+		(torque & 1) == 1 //checks to see if first bit of this int is a 1
 	This line of code uses & which is a very uncommon operation so I would explain it so some people who may have not ever used it can understand
-pull on your main and delete old branches after the PRs are approved
+commit you changes, push your branch, and make a second PR for that branch.
+change you local branch to main, then after both PRs are approved, pull main then delete old branches.
 
 
 
