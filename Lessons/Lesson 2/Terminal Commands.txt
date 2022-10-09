@@ -1,0 +1,14 @@
+dotnet new console //creates a console project in given dir
+
+How to git:
+git config --global user.name "FIRST LAST" //adds you name to git
+git config --global user.email "email used for git" //ads an email for git
+git add <filename.ext> OR <.> //adds new files to git or everything
+git status //shows files to be added to git
+git commit -m "YOUR COMMIT MESSAGE HERE" //saves all changes
+git checkout -b <branch name here> //creates a new branch.
+git checkout <branch name here> //switches between branches
+git merge <branch name here> //merges inputed branch INTO WORKING branch.
+git remote add origin <link> //adds the github repo to the folder
+git push origin <branch name> //pushes branch to github
+git pull origin <branch name> //pulls from git to branch
