@@ -1,4 +1,7 @@
 This is a preview of all the lessons
 
-Lesson 1: First Console app. Making a simple calculator
+Lesson 1: First Console app
 Lesson 2: Intro to GIT and code commenting
+Lesson 3: Loops and Functions
+Lesson 4: Parsing and Enumerables
+Lesson 5: Pseudo Code and Documentation
