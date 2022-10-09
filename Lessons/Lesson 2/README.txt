@@ -65,6 +65,8 @@ Oder of operations:
 
 		Fix any merge issues if any
 
+	git add .						//adds all files you added or changed
+	git commit -m "you commit message"			//actually saves all your chages
 	git push origin <branch name>				//pushes your branch to the repo waiting for it to be reviewed after u make a PR
 	git checkout master					//back to master because you are done with your branch
 
