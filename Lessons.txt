@@ -1,4 +1,4 @@
 This is a preview of all the lessons
 
-Lesson 1: First Console app
+Lesson 1: First Console app. Making a simple calculator
 Lesson 2: Intro to GIT and code commenting
