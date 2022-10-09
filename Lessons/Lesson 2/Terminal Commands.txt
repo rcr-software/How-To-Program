@@ -12,4 +12,3 @@ git merge <branch name here>				//merges inputed branch INTO WORKING branch.
 git remote add origin <link>				//adds the github repo to the folder
 git push origin <branch name>				//pushes branch to github
 git pull origin <branch name>				//pulls from git to branch
-git branch --set-upstream-to=origin/master <branch name> //sets origin to a deault so you dont have to type origin
