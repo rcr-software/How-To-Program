@@ -1,4 +1,4 @@
-This is lesson 1.
+Lesson 1.
 
 In this lesson you will learn how to create a console app and get started with the basics by making a simple calculator.
 
