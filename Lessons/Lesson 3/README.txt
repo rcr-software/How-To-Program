@@ -4,10 +4,10 @@ This lesson will go over the different types of loops and basic functions as wel
 
 Coding Style:
 	Loop variables			- loop variables should start at i then j then k and so on.
-	Variables				- C# uses camel case for variables. capitalize the start of each word except the first. ex. testVar, xDir, pointSystem, test
-	Functions and classes	- Capital Each Word. ex. AddNumbers, TestingData
+	Variables			- C# uses camel case for variables. capitalize the start of each word except the first. ex. testVar, xDir, pointSystem, test
+	Functions and classes		- Capital Each Word. ex. AddNumbers, TestingData
 	immutable datatype		- Const or ReadOnly variables are all caps with _ between words. ex. MAX_HEIGHT, SPEED, MAX_TURN
-	{}						- Like C you should put brackets on the line after the header. they shouldn’t go on the same line because it is harder to read
+	{}				- Like C you should put brackets on the line after the header. they shouldnâ€™t go on the same line because it is harder to read
 	ex of new line bracket (THIS IS TOTALLY NOT PERSONAL PREFERENCE AND SHOULD DEFINITLY BE TAKEN AS FACT):
 		if(true)
 		{
@@ -23,14 +23,14 @@ Coding Style:
 Loop types:
 	While				//will run till the condition is false
 	do while			//will run ONCE no matter what. then till the condition is false
-	for					//will run a specific number of times, unless it is broken (loops can be exited with break whenever)
+	for				//will run a specific number of times, unless it is broken (loops can be exited with break whenever)
 	foreach				//loops through each item of an enumerable(Lesson 4)
 
 Function terms:
 	return				//what the function spits out. its answer
 	return type			//what kind of answer the function will spit out
 	parameter			//what the function takes in
-	default parameter	//optional parameter that has a default value
+	default parameter		//optional parameter that has a default value
 	visibility			//what files can see this function (not important till you have multiple files/classes)
 	void				//a return type that means nothing.
 
