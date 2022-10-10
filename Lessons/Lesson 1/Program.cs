@@ -1,15 +1,15 @@
 ﻿Console.WriteLine("This is how you print to console");
 
 Console.WriteLine("Please enter a number: ");
-int x; //declalres an unitialized integer x
+int x; //declares an uninitialized integer x
 
 x = Console.Read(); //reads in an integer and stores it in x
 
 Console.WriteLine(x); //outputs x
 
-/* notice this does not ouput any character or the correct number that u put in
+/* notice this does not output any character or the correct number that u put in
  * Console.Read() gives you an int back no matter what u put in. so it converts all inputs to int
- * it follows the unicode standard. check out what values are here: https://www.ssec.wisc.edu/~tomw/java/unicode.html#x0000
+ * it follows the Unicode standard. check out what values are here: https://www.ssec.wisc.edu/~tomw/java/unicode.html#x0000
  * to get it as a string we do this:
  */
 
@@ -38,7 +38,7 @@ y = Console.ReadLine();
 
 Console.WriteLine(y);
 
-/* typically everything is read in with ReadLine so that you dont worry about the buffer
+/* typically everything is read in with ReadLine so that you don’t worry about the buffer
  * to read in an int we convert the string we get to an integer
  */
 Console.WriteLine("Enter an int to echo: ");
@@ -63,16 +63,16 @@ Console.WriteLine("Your number is: " + x); //notice this line runs no matter wha
 // you can check both of these at the same time, or if either is acceptable then you can use or
 
 if (x >= 10 && x < 5)
-    Console.WriteLine("the value fits both paramaters");
-if(x >= 10 || x < 5) //note this will run even if the first is true because it is an if not an else if meaning it is NOT conditional on the previous if
-    Console.WriteLine("the value fits at least one paramater");
+    Console.WriteLine("the value fits both parameters");
+if (x >= 10 || x < 5) //note this will run even if the first is true because it is an if not an else if meaning it is NOT conditional on the previous if
+    Console.WriteLine("the value fits at least one parameter");
 
 /*neat thing c# does is auto convert variables when it thinks it should
  * these lines do not output the same thing
  */
 
 Console.WriteLine(x + " + 5 = " + x + 5); //this will add a 5 to the end of the text because it converts both things to strings
-Console.WriteLine(x + " + 5 = " + (x + 5)); //this will add 5 to your inputed number because the parenthesis happen first
+Console.WriteLine(x + " + 5 = " + (x + 5)); //this will add 5 to your inputted number because the parenthesis happen first
 Console.Write(x + " + 5 = ");
 Console.Write(x + 5 + "\n");
 
@@ -98,14 +98,14 @@ Console.Write("This statement\nGoes across\nMany Lines\n");
 
 //since the console is a bit cluttered we will clear it with this command but first we have to pause so you can read console
 Console.WriteLine("Press any key to continue");
-Console.ReadKey(); //this will wait for an input ot contiue. typically add these before a clear
+Console.ReadKey(); //this will wait for an input to continue. typically add these before a clear
 Console.Clear();
 
 Console.WriteLine("enter your first initial");
 
 char z = Convert.ToChar(Console.Read());
 
-switch(z)//switches need their own scope after them so you have to add {}
+switch (z)//switches need their own scope after them so you have to add {}
 {
     case 'A': //this is the same as doing if(z == 'a')
         Console.WriteLine("your initial is an A");
@@ -114,7 +114,7 @@ switch(z)//switches need their own scope after them so you have to add {}
     case 'C':
         Console.WriteLine("your initial is an B or C");
         goto default;//this goes to the default case so both line 115 and line 118 will run. you can also go to another case I.e. goto case 'a';
-    default://this is essentailly an else in the if statement
+    default://this is essentially an else in the if statement
         Console.WriteLine("your initial is not A");
         break;
 }
@@ -138,6 +138,6 @@ switch (z)
         Console.WriteLine("your initial is an B or C");
         goto default;
     default:
-        Console.WriteLine("The unicode for you initial is: " + (int)z); //this will force case its from one datatype to another
+        Console.WriteLine("The Unicode for you initial is: " + (int)z); //this will force case its from one datatype to another
         break;
 }
