@@ -3,8 +3,8 @@ Lesson 2:
 This lesson goes over how to use terminal a bit and how to work with git. It will also go over commenting your commits and your code
 
 To learn how to run code in terminal got to ln 29
-to learn about git commands, go to ln 33
-to follow a step by step of how to setup your git and push go to ln 52
+to learn about git commands, go to ln 37
+to follow a step by step of how to setup your git and push go to ln 57
 
 Prompt:
 
@@ -24,13 +24,18 @@ comment your code:
 commit you changes, push your branch, and make a second PR for that branch.
 change you local branch to main, then after both PRs are approved, pull main then delete old branches.
 
+To open terminal search cmd in windows
 
-
-Terminal c#:
+Terminal & c#:
+dir								//list all folders in current folder
+cd <path/filename/folder>					//navigates to that dir
+cd ..								//goes back a folder
+cd \.								//goes back to root
 dotnet new console						//creates a console project in given dir
 dotnet run <main.cs>						//runs the main file
 
 How to git:
+git init							//initializes a git repo in the folder
 git config --global user.name "FIRST LAST"			//adds you name to git
 git config --global user.email "email"				//ads an email for git
 git add <filename.ext || .>					//adds new files to git or everything
