@@ -58,7 +58,8 @@ Oder of operations:
 
 	First time setup:
 	
-		git config --global user.name "FIRST LAST"	//adds you name to git
+		git init					//starts the git repo in that dir
+		git config --global user.name "FIRST LAST"	//adds your name to git
 		git config --global user.email "email"		//ads an email for git
 		git remote add origin <link>			//adds the GitHub repo to the folder
 
