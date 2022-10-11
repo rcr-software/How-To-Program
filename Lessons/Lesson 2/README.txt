@@ -58,10 +58,14 @@ Oder of operations:
 
 	First time setup:
 	
+	go to https://github.com/rcr-software/How-To-Program and fork the repo (top right)
+	to get code link (for adding remote) click on code and copy the link
+	
 		git init					//starts the git repo in that dir
 		git config --global user.name "FIRST LAST"	//adds your name to git
 		git config --global user.email "email"		//ads an email for git
-		git remote add origin <link>			//adds the GitHub repo to the folder
+		git remote add origin <link>			//adds the GitHub repo to the folder (link the rcr github
+		git remote add myOrigin <link>			//add the repo you forked
 
 	git pull origin master					//this will update you master branch to be the same as GitHub
 	git checkout -b <branch name>				//create a new branch to start working in.
@@ -74,7 +78,7 @@ Oder of operations:
 
 	git add .						//adds all files you added or changed
 	git commit -m "you commit message"			//actually saves all your chages
-	git push origin <branch name>				//pushes your branch to the repo waiting for it to be reviewed after u make a PR
+	git push myOrigin <branch name>				//pushes your branch to the repo waiting for it to be reviewed after u make a PR
 	git checkout master					//back to master because you are done with your branch
 
 		Go to GitHub and make a PR (pull request) to get your code merged to main
