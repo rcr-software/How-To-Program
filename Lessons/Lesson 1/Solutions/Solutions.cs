@@ -1,38 +1,41 @@
-﻿Console.Write("Please enter you first number: "); //I used write instead of writeline because i like my input being on same lane as text
-double x = Convert.ToDouble(Console.ReadLine());
+﻿// See https://aka.ms/new-console-template for more information
 
-Console.Write("\nPlease enter the operator: ");
-char z = Convert.ToChar(Console.ReadLine());
+Console.WriteLine("Choose Operation: \n 0.addition \n 1. Subtraction \n 2. Multiply \n 3. Divide \n 4.Module ");
 
-Console.Write("\nPlease enter you second number: ");
-double y = Convert.ToDouble(Console.ReadLine());
+int selection = Convert.ToInt32(Console.ReadLine());
+int result;
 
-if (z == '%') //modulus only works with ints so its special
+Console.WriteLine("Enter first number/den: ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter second number/num: ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+switch (selection)
 {
-    x = (int)(x + .5); //rounding on my cast
-    y = (int)(y + .5);
-}
-
-Console.Write("\n" + x + " " + z + " " + y + " = ");
-
-switch (z)
-{
-    case '+':
-        Console.Write(x+y);
+    case 0: //add
+        result = (a + b);
+        Console.WriteLine(result);
         break;
-    case '-':
-        Console.Write(x-y);
+    case 1:
+        result = (a - b);
+        Console.WriteLine(result);
         break;
-    case '/':
-        Console.Write(x/y);
+    case 2:
+        result = (a * b);
+        Console.WriteLine(result);
         break;
-    case '*':
-        Console.Write(x*y);
+    case 3:
+        result = (a / b);
+        Console.WriteLine(result);
         break;
-    case '%':
-        Console.Write(x%y);
+    case 4:
+        result = (a % b);
+        Console.WriteLine(result);
         break;
     default:
-        Console.Write("INVALID OPERATION");
+        Console.WriteLine("Invaid");
         break;
+
+
 }
