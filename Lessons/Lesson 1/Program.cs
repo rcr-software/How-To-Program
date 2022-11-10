@@ -1,4 +1,4 @@
-﻿Console.WriteLine("This is how you print to console");
+﻿/*Console.WriteLine("This is how you print to console");
 
 Console.WriteLine("Please enter a number: ");
 int x; //declares an uninitialized integer x
@@ -7,11 +7,13 @@ x = Console.Read(); //reads in an integer and stores it in x
 
 Console.WriteLine(x); //outputs x
 
-/* notice this does not output any character or the correct number that u put in
- * Console.Read() gives you an int back no matter what u put in. so it converts all inputs to int
- * it follows the Unicode standard. check out what values are here: https://www.ssec.wisc.edu/~tomw/java/unicode.html#x0000
+notice this does not output any character or the correct number that u put in
+
+* Console.Read() gives you an int back no matter what u put in. so it converts all inputs to int
+* it follows the Unicode standard. check out what values are here: https://www.ssec.wisc.edu/~tomw/java/unicode.html#x0000
  * to get it as a string we do this:
- */
+
+
 
 string y;
 
@@ -20,10 +22,11 @@ y = Console.ReadLine();
 
 Console.WriteLine(y);
 
-/* if the first time you entered a value it was more than one character this does not pause
+ if the first time you entered a value it was more than one character this does not pause
  * Console.Read reads in EXACTLY 1 character, meaning all remaining remain on a buffer
  * to clear the buffer add a Console.ReadLine() after any Consle.Read()
- */
+
+
 
 Console.WriteLine("Please enter a number: ");
 x = Console.Read(); //reads in an integer and stores it in x
@@ -38,9 +41,10 @@ y = Console.ReadLine();
 
 Console.WriteLine(y);
 
-/* typically everything is read in with ReadLine so that you don’t worry about the buffer
- * to read in an int we convert the string we get to an integer
- */
+typically everything is read in with ReadLine so that you don’t worry about the buffer
+* to read in an int we convert the string we get to an integer
+
+
 Console.WriteLine("Enter an int to echo: ");
 x = Convert.ToInt32(Console.ReadLine());
 
@@ -67,32 +71,34 @@ if (x >= 10 && x < 5)
 if (x >= 10 || x < 5) //note this will run even if the first is true because it is an if not an else if meaning it is NOT conditional on the previous if
     Console.WriteLine("the value fits at least one parameter");
 
-/*neat thing c# does is auto convert variables when it thinks it should
+neat thing c# does is auto convert variables when it thinks it should
  * these lines do not output the same thing
- */
+
+
 
 Console.WriteLine(x + " + 5 = " + x + 5); //this will add a 5 to the end of the text because it converts both things to strings
 Console.WriteLine(x + " + 5 = " + (x + 5)); //this will add 5 to your inputted number because the parenthesis happen first
 Console.Write(x + " + 5 = ");
 Console.Write(x + 5 + "\n");
 
-/* as you go from left to right on ln 74 it goes
- * x + " + 5 = "
+ as you go from left to right on ln 74 it goes
+ *x + " + 5 = "
  * this is seen as a int plus a string
  * so c# says i will just convert string plus string to get string
  * then its " + 5 = " + x
  * which is the same thing so it adds the x again as a string
- * since x was converted to a string x + 5 is seen as string plus int
+ * since x was converted to a string x +5 is seen as string plus int
  * which again gets converted to string plus string
- * 
- * on ln 75 since you have () it sees x + 5 first
+ *
+ * on ln 75 since you have() it sees x + 5 first
  * this is int + int so it actually adds them
- * 
- * 76 and 77 do the same as 75. on 76 I am using Console.Write()
- * this function does not move the cursor to the next line
- * on line 77 I add "\n" this will force the cursor to the next line
- * this can be done in the middle of a string to force it to the next line
- */
+ *
+ *76 and 77 do the same as 75.on 76 I am using Console.Write()
+ *this function does not move the cursor to the next line
+ *on line 77 I add "\n" this will force the cursor to the next line
+ *this can be done in the middle of a string to force it to the next line
+
+
 
 Console.Write("This statement\nGoes across\nMany Lines\n");
 
@@ -119,10 +125,11 @@ switch (z)//switches need their own scope after them so you have to add {}
         break;
 }
 
-/* the last thing to mention is. if you did not enter a upper case initial that switch did not work.
- * most programs must be user proofed
- * to user proof this one. read it in or convert it to a string, then force it either upper case or lower case.
- */
+the last thing to mention is. if you did not enter a upper case initial that switch did not work.
+ *most programs must be user proofed
+ * to user proof this one.read it in or convert it to a string, then force it either upper case or lower case.
+
+
 
 Console.WriteLine("Second switch:");
 
@@ -141,3 +148,4 @@ switch (z)
         Console.WriteLine("The Unicode for you initial is: " + (int)z); //this will force case its from one datatype to another
         break;
 }
+*/
